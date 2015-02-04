@@ -13,6 +13,7 @@
 		319B8FAD1A7E658000E8F026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319B8FAC1A7E658000E8F026 /* Images.xcassets */; };
 		319B8FB01A7E658000E8F026 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319B8FAE1A7E658000E8F026 /* LaunchScreen.xib */; };
 		319B8FBC1A7E658000E8F026 /* MapAppwithswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B8FBB1A7E658000E8F026 /* MapAppwithswiftTests.swift */; };
+		319B8FC61A7E65C600E8F026 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319B8FC51A7E65C600E8F026 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		319B8FB51A7E658000E8F026 /* MapAppwithswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppwithswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319B8FBA1A7E658000E8F026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319B8FBB1A7E658000E8F026 /* MapAppwithswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppwithswiftTests.swift; sourceTree = "<group>"; };
+		319B8FC51A7E65C600E8F026 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319B8FC61A7E65C600E8F026 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		319B8F971A7E658000E8F026 = {
 			isa = PBXGroup;
 			children = (
+				319B8FC51A7E65C600E8F026 /* CoreLocation.framework */,
 				319B8FA21A7E658000E8F026 /* MapAppwithswift */,
 				319B8FB81A7E658000E8F026 /* MapAppwithswiftTests */,
 				319B8FA11A7E658000E8F026 /* Products */,
