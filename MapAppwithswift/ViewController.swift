@@ -27,6 +27,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     
     @IBOutlet weak var address: UILabel!
     
+   
     
     
     //create a variable of type cllocation manager
@@ -43,7 +44,9 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         manager.requestWhenInUseAuthorization() //ask user to share location
         manager.startUpdatingLocation()
         
-        
+        //easy mode test
+          println("easy mode")
+          println("easy mode branch")
         
     }
     
